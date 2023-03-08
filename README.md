@@ -34,10 +34,12 @@ python setup.py build develop
 ./datasets/voc/VOC2007/Annotations
 ./datasets/voc/VOC2007/ImageSets
 ```
+4. Download selective search proposals from [NWPU VHR-10.v2](https://onedrive.live.com/) and [DIOR](https://onedrive.live.com/), and put them into the ./proposal directory.
 
-4. Download the training, validation, test data from [NWPU](https://onedrive.live.com/?authkey=%21ADaUNysmiFRH4eE&cid=5C5E061130630A68&id=5C5E061130630A68%21115&parId=5C5E061130630A68%21113&action=locate) and [DIOR](https://drive.google.com/drive/folders/1UdlgHk49iu6WpcJ5467iT-UqNPpx__CC)
-5. Extract all of datasets into one directory named VOCdevkit2007
+5. Download the training, validation, test data from [NWPU](https://onedrive.live.com/?authkey=%21ADaUNysmiFRH4eE&cid=5C5E061130630A68&id=5C5E061130630A68%21115&parId=5C5E061130630A68%21113&action=locate) and [DIOR](https://drive.google.com/drive/folders/1UdlgHk49iu6WpcJ5467iT-UqNPpx__CC)
+
 6. Download pretrained ImageNet weights from [here](https://drive.google.com/drive/folders/0B1_fAEgxdnvJSmF3YUlZcHFqWTQ), and put it in the data/imagenet_weights/
-
+## Acknowledgement
+We borrowed the main code from [wetectron](https://github.com/NVlabs/wetectron).
 
 
