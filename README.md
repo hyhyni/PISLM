@@ -26,13 +26,13 @@ conda activate pqs-psla
 conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 python setup.py build develop
 ```
-3. Download the NWPU VHR-10.v2/DIOR dataset and put them into the ./datasets directory. For example:
+3. Download the DIOR dataset and put them into the ./datasets directory. For example:
 ```bash
 ./datasets/voc/VOC2007/JPEGImages
 ./datasets/voc/VOC2007/Annotations
 ./datasets/voc/VOC2007/ImageSets
 ```
-4. Download selective search proposals from [NWPU VHR-10.v2](https://onedrive.live.com/) and [DIOR](https://onedrive.live.com/), and put them into the ./proposal directory.
+4. Download selective search proposals from [DIOR](https://onedrive.live.com/), and put them into the ./proposal directory.
 5. Download pretrained weights from [here](https://drive.google.com/drive/folders/0B1_fAEgxdnvJSmF3YUlZcHFqWTQ), and put it into the ./pretrained_weights directory.
 ## Training
 ```bash
