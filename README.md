@@ -34,5 +34,15 @@ python setup.py build develop
 ```
 4. Download selective search proposals from [NWPU VHR-10.v2](https://onedrive.live.com/) and [DIOR](https://onedrive.live.com/), and put them into the ./proposal directory.
 5. Download pretrained weights from [here](https://drive.google.com/drive/folders/0B1_fAEgxdnvJSmF3YUlZcHFqWTQ), and put it into the ./pretrained_weights directory.
+## Training
+```bash
+python -m torch.distributed.launch --nproc_per_node=2 tools/train_net.py --config-file "configs/voc/V_16_voc07.yaml" \
+--use-tensorboard OUTPUT_DIR ./output/dir
+```
+## Test
+```bash
+python -m torch.distributed.launch --nproc_per_node=2 tools/test_net.py --config-file "configs/voc/V_16_voc07.yaml" TEST.IMS_PER_BATCH 2 \
+OUTPUT_DIR ./output/test_output MODEL.WEIGHT ./output/dir/model
+```
 ## Acknowledgement
 We borrowed the main code from [wetectron](https://github.com/NVlabs/wetectron).
