@@ -28,7 +28,7 @@ conda activate pqs-psla
 conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 python setup.py build develop
 ```
-3.Download the VOCdevkit and rename it as VOCdevkit2007
+3. Download the VOCdevkit and rename it as VOCdevkit2007
 ```bash
 cd RINet/data/
 wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCdevkit_08-Jun-2007.tar
