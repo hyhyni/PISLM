@@ -32,7 +32,7 @@ python setup.py build develop
 ./datasets/DIOR/ImageSets
 ```
 4. Download selective search proposals from [DIOR](https://drive.google.com/drive/folders/1zWgPJhu2XOpRhUYjFB0Qv2dJ-PE01aLq?usp=sharing) or generate proposals by yourself, and put them into the ./proposal directory.
-5. Download pretrained weights from [here](https://drive.google.com/drive/folders/19siwLoC_mcLhLiJ-ACNUbgGCrhGLBY9C?usp=sharing), and put it into the ./pretrained_weights directory.
+5. Download the pretrained weights of backbone network from [here](https://drive.google.com/drive/folders/19siwLoC_mcLhLiJ-ACNUbgGCrhGLBY9C?usp=sharing), and put it into the ./pretrained_weights directory.
 ## Training
 ```bash
 python -m torch.distributed.launch --nproc_per_node=8 tools/train_net.py --config-file "configs/voc/V_16_voc07.yaml" \
