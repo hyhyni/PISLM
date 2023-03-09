@@ -12,7 +12,6 @@ By Xiaoliang Qian, Yu Huo, Gong Cheng, Chenyang Gao, Xiwen Yao, Wei Wang
 * opencv <br>
 * tensorboardX <br>
 * pycocotools <br>
-* GPU: NVIDIA TITAN RTX
 ## Installation
 1. Clone the pqs-psla repository
 ```bash
