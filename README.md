@@ -13,15 +13,15 @@ By Xiaoliang Qian, Yu Huo, Gong Cheng, Chenyang Gao, Xiwen Yao, Wei Wang
 * tensorboardX <br>
 * pycocotools <br>
 ## Installation
-1. Clone the pqs-psla repository
+1. Clone the pislm repository
 ```bash
 git clone https://github.com/
-cd pqs-psla
+cd pislm
 ```
 2. Environment installation and compilation
 ```bash
-conda create --name pqs-psla python=3.7
-conda activate pqs-psla
+conda create --name pislm python=3.7
+conda activate pislm
 conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 python setup.py build develop
 ```
