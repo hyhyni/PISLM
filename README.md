@@ -25,7 +25,7 @@ conda activate PISLM
 conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 python setup.py build develop
 ```
-3. Download the [DIOR](https://drive.google.com/drive/folders/1UdlgHk49iu6WpcJ5467iT-UqNPpx__CC) or other remote sensing datasets and put them into the ./datasets directory. For example:
+3. Download the [DIOR](https://drive.google.com/drive/folders/1UdlgHk49iu6WpcJ5467iT-UqNPpx__CC) or other remote sensing datasets, and put them into the ./datasets directory. For example:
 ```bash
 ./datasets/DIOR/JPEGImages
 ./datasets/DIOR/Annotations
