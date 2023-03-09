@@ -38,7 +38,7 @@ python setup.py build develop
 python -m torch.distributed.launch --nproc_per_node=8 tools/train_net.py --config-file "configs/voc/V_16_voc07.yaml" \
 --use-tensorboard OUTPUT_DIR ./output/dir
 ```
-## Test
+## Testing
 ```bash
 python -m torch.distributed.launch --nproc_per_node=8 tools/test_net.py --config-file "configs/voc/V_16_voc07.yaml" TEST.IMS_PER_BATCH 8 \
 OUTPUT_DIR ./output/test_output MODEL.WEIGHT ./output/dir/model
