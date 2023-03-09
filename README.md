@@ -13,15 +13,15 @@ By Xiaoliang Qian, Yu Huo, Gong Cheng, Chenyang Gao, Xiwen Yao, Wei Wang
 * tensorboardX <br>
 * pycocotools <br>
 ## Installation
-1. Clone the pislm repository
+1. Clone the PISLM repository
 ```bash
-git clone https://github.com/hyhyni/pislm
-cd pislm
+git clone https://github.com/hyhyni/PISLM
+cd PISLM
 ```
 2. Environment installation and compilation
 ```bash
-conda create --name pislm python=3.7
-conda activate pislm
+conda create --name PISLM python=3.7
+conda activate PISLM
 conda install pytorch==1.7.1 torchvision==0.8.2 cudatoolkit=10.1 -c pytorch
 python setup.py build develop
 ```
