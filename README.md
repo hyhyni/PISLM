@@ -32,7 +32,7 @@ python setup.py build develop
 ./datasets/DIOR/Annotations
 ./datasets/DIOR/ImageSets
 ```
-4. Download selective search proposals from [DIOR](https://drive.google.com/drive/folders/1zWgPJhu2XOpRhUYjFB0Qv2dJ-PE01aLq?usp=sharing), and put them into the ./proposal directory.
+4. Download selective search proposals from [DIOR](https://drive.google.com/drive/folders/1zWgPJhu2XOpRhUYjFB0Qv2dJ-PE01aLq?usp=sharing) or generate proposals by yourself, and put them into the ./proposal directory.
 5. Download pretrained weights from [here](https://drive.google.com/drive/folders/19siwLoC_mcLhLiJ-ACNUbgGCrhGLBY9C?usp=sharing), and put it into the ./pretrained_weights directory.
 ## Training
 ```bash
